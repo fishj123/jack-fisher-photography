@@ -1,2 +1,20 @@
 /*/////////////// General styles ///////////////*/
 
+html {
+    font-family: 'Noto Serif', serif;
+}
+
+
+/* header styles */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+    background-color: #EDEFF0;
+    box-shadow: 0px 0px 1px rgb(31, 31, 31);
+}
+
+header span {
+    padding: 1vw 2vw;
+}
