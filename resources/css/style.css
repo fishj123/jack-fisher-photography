@@ -4,6 +4,7 @@ html {
     font-family: 'Noto Serif', serif;
     color: rgb(31, 31, 31);
     font-size: 1vw;
+    background-color: #f3eade;
 }
 
 
@@ -13,7 +14,7 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-right: 2vw;
-    background-color: #EDEFF0;
+    background-color: #f3eade;
     box-shadow: 0px 0px 1px rgb(31, 31, 31);
 }
 
@@ -41,4 +42,21 @@ header span {
 
 .hero span {
     font-size: 1.5vw;
+}
+
+
+/* Home image section styles */
+
+.home-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.image-container {
+    height: 10vw;
+    width: 15vw;
+    border: 1px solid black;
+    margin: 5vw;
 }
