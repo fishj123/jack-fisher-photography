@@ -22,6 +22,11 @@ header span {
     padding: 1vw 2vw;
 }
 
+header img {
+    height: 1%;
+    width: auto;
+}
+
 
 /* Hero section styles */
 
