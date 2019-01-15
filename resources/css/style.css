@@ -2,6 +2,8 @@
 
 html {
     font-family: 'Noto Serif', serif;
+    color: rgb(31, 31, 31);
+    font-size: 1vw;
 }
 
 
@@ -17,4 +19,26 @@ header {
 
 header span {
     padding: 1vw 2vw;
+}
+
+
+/* Hero section styles */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+ 
+
+}
+
+.hero h1 {
+    font-size: 7vw;
+    margin: 3vw;
+}
+
+.hero span {
+    font-size: 1.5vw;
 }
