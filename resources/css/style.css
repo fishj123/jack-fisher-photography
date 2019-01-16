@@ -7,6 +7,11 @@ html {
     background-color: #e7e4e1;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 
 /* header styles */
 
@@ -64,4 +69,10 @@ header img {
     width: 24vw;
     border: 1px solid black;
     margin: 2vw;
+    overflow: contain;
+}
+
+.image-container img {
+    height: 16vw;
+    width: 24vw;
 }
