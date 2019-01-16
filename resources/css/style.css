@@ -24,14 +24,24 @@ header {
     padding-right: 2vw;
     background-color: #f5f5f5;
     box-shadow: 0px 0px 1px rgb(31, 31, 31);
+    align-items: center;
 }
 
 header span {
     padding: 1vw 2vw;
 }
 
-header img {
-    height: 1%;
+header p {
+margin-right: auto;
+margin-left: 2vw;
+font-family: 'Niconne';
+font-size: 2vw;
+color: rgb(95, 95, 95)
+}
+
+.header-image img {
+    overflow: contain;
+    height: 2vw;
     width: auto;
 }
 
