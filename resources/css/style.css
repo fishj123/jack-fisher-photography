@@ -4,7 +4,7 @@ html {
     font-family: 'Noto Serif', serif;
     color: rgb(31, 31, 31);
     font-size: 1vw;
-    background-color: #f3eade;
+    background-color: #e7e4e1;
 }
 
 
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-right: 2vw;
-    background-color: #f3eade;
+    background-color: #e7e4e1;
     box-shadow: 0px 0px 1px rgb(31, 31, 31);
 }
 
@@ -60,8 +60,8 @@ header img {
 
 
 .image-container {
-    height: 10vw;
-    width: 15vw;
+    height: 16vw;
+    width: 24vw;
     border: 1px solid black;
-    margin: 5vw;
+    margin: 2vw;
 }
