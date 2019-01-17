@@ -34,8 +34,8 @@ header span {
 header p {
 margin-right: auto;
 margin-left: 2vw;
-font-family: 'Niconne';
-font-size: 2vw;
+font-family: 'Roboto Slab';
+font-size: 1.5vw;
 color: rgb(95, 95, 95)
 }
 
@@ -78,16 +78,17 @@ color: rgb(95, 95, 95)
 
 
 .image-container {
-    height: 16vw;
-    width: 24vw;
-    border: 1px solid black;
+    height: 20vw;
+    width: 30vw;
     margin: 2vw;
     overflow: contain;
+    display: flex;
+    justify-content: center;
 }
 
 .image-container img {
-    height: 16vw;
-    width: 24vw;
+    height: 20vw;
+    width: auto;
 }
 
 
