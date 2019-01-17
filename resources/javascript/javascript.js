@@ -14,7 +14,8 @@ $('.image-container-slick').slick({
     draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false,
-    swipe: false,
+    swipe: true,
+    arrows: false,
     touchMove: false,
   });
 
