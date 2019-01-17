@@ -20,13 +20,4 @@ $('.image-container-slick').slick({
   });
 
 
-// lazy loading of images 
-
-window.addEventListener("load", function(event) {
-    lazyload();
-});
-
-
-
-
 });

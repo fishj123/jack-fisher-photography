@@ -53,9 +53,12 @@ color: rgb(95, 95, 95)
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vw;
+    height: 100vh;
  
+}
 
+.hero span:hover {
+    opacity: 0.5;
 }
 
 .hero h1 {
@@ -67,29 +70,6 @@ color: rgb(95, 95, 95)
     font-size: 1.5vw;
 }
 
-
-/* Home image section styles */
-
-.home-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-.image-container {
-    height: 20vw;
-    width: 30vw;
-    margin: 2vw;
-    overflow: contain;
-    display: flex;
-    justify-content: center;
-}
-
-.image-container img {
-    height: 20vw;
-    width: auto;
-}
 
 
 /*//////////////////// Gallery styles //////////////////*/
