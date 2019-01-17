@@ -127,3 +127,43 @@ color: rgb(95, 95, 95)
 #gallery .side-menu span:hover {
     opacity: 0.5;
 }
+
+
+/*//////////////////// About styles //////////////////*/
+
+#about .image-container {
+    width: 30vw;
+    height: 20vw;
+    overflow: contain;
+    margin: auto;
+    position: relative;
+    top: 15vh;
+}
+
+#about img {
+    width: 30vw; 
+    height: 20vw;
+    z-index: 1;
+}
+
+#about p {
+    display: block;
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    margin-top: 3vw;
+    top: 15vh;
+    text-align: center;
+}
+
+#about .image-intersect {
+    color: red;
+    transform: rotate(320deg);
+    position: absolute;
+    left: 20vw;
+    top: 10vw;
+    z-index: 2;
+    width: 35vw;
+    height: 5vw;
+    border: 1px solid black;
+}
