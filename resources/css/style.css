@@ -23,7 +23,6 @@ header {
     justify-content: flex-end;
     padding-right: 2vw;
     background-color: #f5f5f5;
-    box-shadow: 0px 0px 1px rgb(177, 177, 177);
     align-items: center;
 }
 
@@ -143,27 +142,35 @@ color: rgb(95, 95, 95)
 #about img {
     width: 30vw; 
     height: 20vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 #about p {
     display: block;
-    width: 30vw;
+    width: 33vw;
     position: relative;
     margin: auto;
     margin-top: 3vw;
     top: 15vh;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5vw;
 }
 
 #about .image-intersect {
-    color: red;
-    transform: rotate(320deg);
+    background-color: #f5f5f5;
+    transform: rotate(318deg);
     position: absolute;
-    left: 20vw;
-    top: 10vw;
+    left: 33vw;
+    top: 16vw;
     z-index: 2;
     width: 35vw;
-    height: 5vw;
-    border: 1px solid black;
+    height: 2vw;
+}
+
+#about #instagram {
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 8vw;
+    top: 17vh;
 }
