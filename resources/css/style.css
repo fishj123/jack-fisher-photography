@@ -157,29 +157,31 @@ header span {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    position: relative;
+    top: 5rem;
 }
 
 #about .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 90%;
-    padding: 2%;
+    max-width: 95%;
+    
 }
 
 
 #about .image-container {
-    width: 75vh;
-    height: 50vh;
+    max-width: 60%;
+    height: auto;
     overflow: contain;
-    position: relative;
-    top: 15vh;
+
 }
 
 #about img {
-    width: 75vh; 
-    height: 50vh;
+    width: 100%; 
+    height: auto;
 }
+
 
 @media only screen and (max-width: 674px) {
     #about .image-container {
@@ -193,30 +195,24 @@ header span {
     }
 
     #about p {
-        font-size: 1rem;
-        line-height: 2rem;
-        width: 90%;
+        max-width: none;
     }
+
+ 
 }
 
 #about p {
     display: block;
-    width: 70vh;
-    position: relative;
-    
+    max-width: 70vh;
     padding: 0 5rem;
     margin-top: 3vw;
-    top: 15vh;
     text-align: left;
     line-height: 3vh;
     font-size: 2vh;
 }
 
 #about #instagram {
-    margin: auto;
-    display: block;
-    position: relative;
-    width: 8vw;
-    top: 17vh;
-    margin-bottom: 3vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
 }
