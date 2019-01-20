@@ -53,6 +53,10 @@ color: rgb(95, 95, 95)
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(../images/Edinburgh/DSC_0078.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
  
 }
 
@@ -73,6 +77,30 @@ color: rgb(95, 95, 95)
     position: relative;
     bottom: 5vh;
 }
+
+
+@media only screen and (max-width: 1024px) {
+
+    .hero {
+        background-image: url(../images/Edinburgh/DSC_0298.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hero h1 {
+        bottom: 20vh;
+        color: white;
+        font-size:8vw;
+    }
+
+    .hero span {
+        font-size: 3vw;
+        bottom: 20vh;
+        color: white;
+    }
+
+} 
 
 
 
