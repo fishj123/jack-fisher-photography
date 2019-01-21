@@ -108,6 +108,7 @@ header span {
 #home img {
     max-height: 900px;
     width: auto;
+    margin: 0 5%;
     
 }
 
@@ -116,7 +117,7 @@ header span {
     line-height: 2rem;
 }
 
-#home span {
+#home .camera {
     padding-top: 2rem;
     font-family: monospace;
 }
@@ -125,7 +126,14 @@ header span {
     max-width: 30%;
     display: flex;
     flex-direction: column;
+    margin: 0 5%;
 
+}
+
+@media only screen and (max-width: 1500px) {
+    #home section {
+        flex-direction: column;
+    }
 }
 
 
