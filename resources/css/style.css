@@ -13,6 +13,11 @@ a {
 }
 
 
+.site-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
 /* header styles */
 
 header {
@@ -138,12 +143,18 @@ header span {
 
 }
 
-#home .dual-image img {
-    
+#home .dual-image .image-container {
+    width: 30vw;
 }    
 
 #home .reverse {
     flex-direction: row-reverse;
+}
+
+
+#home .mobile {
+    display: flex;
+    max-width: 50%;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -159,9 +170,19 @@ header span {
         justify-content: center;
     }
 
-    #home img {
-       
+    #home .dual-image {
+        
     }
+
+    #home .dual-image .image-container {
+    
+}   
+
+
+#home .mobile {
+    display: flex;
+    max-width: 100%;
+}
 
     #home p {
         font-size: 2vh;
@@ -179,7 +200,7 @@ header span {
 
     #home section {
         height: auto;
-        padding: 5rem 0;
+        margin: 5rem 0;
         text-align: center;
     }
 
