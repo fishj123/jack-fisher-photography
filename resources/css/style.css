@@ -102,13 +102,21 @@ header span {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  
 }
 
 
-#home img {
-    max-height: 900px;
+#home .image-container {
     width: auto;
-    margin: 0 5%;
+    height: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#home img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
     
 }
 
@@ -133,6 +141,22 @@ header span {
 @media only screen and (max-width: 1500px) {
     #home section {
         flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #home img {
+       
+    }
+
+    #home p {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+
+    #home .information {
+        max-width: 70%;
+        margin-bottom: 10vh;
     }
 }
 
