@@ -153,6 +153,12 @@ header span {
         justify-content: center;
     }
 
+    #home .reverse {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     #home img {
        
     }
