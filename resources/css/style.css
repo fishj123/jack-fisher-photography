@@ -4,7 +4,7 @@ html {
     font-family: 'Noto Serif', serif;
     color: rgb(31, 31, 31);
     font-size: 16px;
-    background-color: #f5f5f5;
+    background-color: rgb(255, 227, 227);
 }
 
 a {
@@ -27,7 +27,7 @@ header {
     z-index: 2;
     justify-content: flex-end;
     padding-right: 2vw;
-    background-color: #f5f5f5;
+    background-color: rgb(255, 227, 227);
     align-items: center;
 }
 
@@ -51,10 +51,11 @@ header span {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../images/Edinburgh/DSC_0078.jpg);
+    /* background-image: url(../images/Edinburgh/DSC_0078.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: none;
+    background-color: rgb(255, 199, 146)
  
 }
 
@@ -70,11 +71,42 @@ header span {
     bottom: 5vh;
 }
 
-.hero span {
+#menu {
     font-size: 1.5vw;
     position: relative;
     bottom: 5vh;
 }
+
+#menu:hover {
+    cursor: pointer;
+}
+
+.hero li {
+    display: inline;
+    padding: 1rem;
+}
+
+.menu-items {
+    display: none;
+    position: relative;
+    top: 3rem;
+}
+
+.hero-text {
+    padding-top: 4rem;
+    font-family: monospace;
+    display: none;
+    font-size: 1rem;
+    
+}
+
+.open {
+    display: block;
+}
+
+
+
+
 
 
 @media only screen and (max-width: 1024px) {
