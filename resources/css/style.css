@@ -59,11 +59,6 @@ header span {
  
 }
 
-.hero span:hover {
-    opacity: 0.5;
-    transition: 0.2s ease-in-out;
-}
-
 .hero h1 {
     font-size: 7vw;
     margin: 3vw;
@@ -75,10 +70,13 @@ header span {
     font-size: 1.5vw;
     position: relative;
     bottom: 5vh;
+    
 }
 
 #menu:hover {
     cursor: pointer;
+    color: rgb(243, 247, 11);
+    transition: 0.3s linear;
 }
 
 .hero li {
@@ -88,20 +86,28 @@ header span {
 
 .menu-items {
     display: none;
-    position: relative;
-    top: 3rem;
+    position: absolute;
+    top: 40rem;
+    
+}
+
+.hero li:hover {
+    color: rgb(243, 247, 11);
+    transition: 0.3s linear;
 }
 
 .hero-text {
-    padding-top: 4rem;
     font-family: monospace;
     display: none;
     font-size: 1rem;
+    position: absolute;
+    top: 45rem;
     
 }
 
 .open {
     display: block;
+    
 }
 
 
@@ -111,20 +117,14 @@ header span {
 
 @media only screen and (max-width: 1024px) {
 
-    .hero {
-        background-image: url(../images/Edinburgh/DSC_0298.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: none;
-    }
+   
 
     .hero h1 {
         bottom: 20vh;
-        color: white;
         font-size:8vw;
     }
 
-    .hero span {
+    #menu {
         font-size: 3vw;
         bottom: 20vh;
         color: white;
