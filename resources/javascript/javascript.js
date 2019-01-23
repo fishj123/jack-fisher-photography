@@ -28,6 +28,14 @@ var text = document.querySelector('.hero-text');
 
 
 menu.addEventListener('click', function() {
-  menuItems.classList.add("open");
-  text.classList.add('open');
+
+  if (menuItems.classList.contains('open')) {
+    menuItems.classList.remove('open');
+    text.classList.remove("open");
+  } else {
+    menuItems.classList.add("open");
+    text.classList.add('open')
+  }
+
+
 });

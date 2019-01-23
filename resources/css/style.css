@@ -87,7 +87,7 @@ header span {
 .menu-items {
     display: none;
     position: absolute;
-    top: 40rem;
+    bottom: 35%;
     
 }
 
@@ -101,7 +101,7 @@ header span {
     display: none;
     font-size: 1rem;
     position: absolute;
-    top: 45rem;
+    bottom: 30%;
     
 }
 
@@ -109,9 +109,6 @@ header span {
     display: block;
     
 }
-
-
-
 
 
 
@@ -127,10 +124,27 @@ header span {
     #menu {
         font-size: 3vw;
         bottom: 20vh;
-        color: white;
+    }
+
+    .menu-items {
+        bottom: 50%;
+    }
+
+    .hero-text {
+        bottom: 40%;
     }
 
 } 
+
+
+@media only screen and (max-width: 520px) {
+
+    .menu-items {
+        font-size: 2.5vw;
+        bottom: 60%;
+    }
+}
+
 
 #home section {
     height: 100vh;
