@@ -75,7 +75,7 @@ header span {
 
 #menu:hover {
     cursor: pointer;
-    color: rgb(243, 247, 11);
+    color: rgb(255, 227, 227);
     transition: 0.3s linear;
 }
 
@@ -91,7 +91,7 @@ header span {
 }
 
 .hero a:hover {
-    color: rgb(243, 247, 11);
+    color: rgb(255, 227, 227);
     transition: 0.3s linear;
 }
 
@@ -286,7 +286,6 @@ header span {
     left: 10vw;
     width: 15vw;
     height: 15vw;
-    padding: vw;
     font-size: 1vw;
 }
 
@@ -299,7 +298,58 @@ header span {
 }
 
 
+@media only screen and (max-width: 1025px) {
+    .gallery-container {
+        flex-direction: column;   
+    }
+
+    #gallery .side-menu {
+        flex-direction: row;
+        left: 0;
+        top: 10rem;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    #gallery .image-container-slick {
+        left: 0;
+        top: 10rem;
+        width: 60vh;
+        height: 40vh;
+    }
+
+    .slick-image img {
+        height: 40vh;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 450px) {
+
+    .slick-image img {
+        height: 60vw;
+    }
+
+    #gallery .image-container-slick {
+        width: 90vw;
+        height: 90vw;
+    }
+
+     #gallery .side-menu {
+        font-size: 0.8rem;
+     }
+}
+
+
 /*//////////////////// About styles //////////////////*/
+
+#about {
+    width: 100vw;
+}
 
 
 #about section {
@@ -309,6 +359,7 @@ header span {
     margin: auto;
     position: relative;
     top: 5rem;
+    width: 100vw;
 }
 
 #about .content-container {
@@ -316,6 +367,7 @@ header span {
     flex-direction: column;
     align-items: center;
     max-width: 95%;
+    margin: auto;
     
 }
 
@@ -332,31 +384,12 @@ header span {
     height: auto;
 }
 
-
-@media only screen and (max-width: 674px) {
-    #about .image-container {
-        width: 90%;
-        height: auto;
-    }
-
-    #about img {
-        width: 90%;
-        height: auto;
-    }
-
-    #about p {
-        max-width: none;
-    }
-
- 
-}
-
 #about p {
     display: block;
     max-width: 70vh;
     padding: 0 5rem;
     margin-top: 3vw;
-    text-align: left;
+    
     line-height: 3vh;
     font-size: 2vh;
 }
@@ -366,3 +399,4 @@ header span {
     margin-bottom: 2rem;
     font-weight: bold;
 }
+
