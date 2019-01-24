@@ -23,19 +23,18 @@ $('.image-container-slick').slick({
 });
 
 var menu = document.querySelector('#menu');
-var menuItems = document.querySelector('ul');
+var menuItems = document.querySelector('.menu-items');
 var text = document.querySelector('.hero-text');
 
 
-menu.addEventListener('click', function() {
-
+  menu.addEventListener('click', function() {
   if (menuItems.classList.contains('open')) {
     menuItems.classList.remove('open');
     text.classList.remove("open");
   } else {
     menuItems.classList.add("open");
     text.classList.add('open')
-  }
+  };
 
 
 });

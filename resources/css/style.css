@@ -51,7 +51,7 @@ header span {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-image: url(../images/Edinburgh/DSC_0078.jpg); */
+    max-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -79,19 +79,18 @@ header span {
     transition: 0.3s linear;
 }
 
-.hero li {
+.hero a {
     display: inline;
     padding: 1rem;
 }
 
 .menu-items {
     display: none;
-    position: absolute;
-    bottom: 35%;
+    position: relative;
     
 }
 
-.hero li:hover {
+.hero a:hover {
     color: rgb(243, 247, 11);
     transition: 0.3s linear;
 }
@@ -100,8 +99,7 @@ header span {
     font-family: monospace;
     display: none;
     font-size: 1rem;
-    position: absolute;
-    bottom: 30%;
+    padding-top: 2rem;
     
 }
 
@@ -115,24 +113,15 @@ header span {
 @media only screen and (max-width: 1024px) {
 
    
-
     .hero h1 {
-        bottom: 20vh;
         font-size:8vw;
     }
 
     #menu {
         font-size: 3vw;
-        bottom: 20vh;
+       
     }
 
-    .menu-items {
-        bottom: 50%;
-    }
-
-    .hero-text {
-        bottom: 40%;
-    }
 
 } 
 
@@ -141,7 +130,7 @@ header span {
 
     .menu-items {
         font-size: 2.5vw;
-        bottom: 60%;
+        
     }
 }
 
