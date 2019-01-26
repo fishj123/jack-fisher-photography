@@ -35,12 +35,16 @@ header span {
     padding: 1vw 2vw;
 }
 
-
-.header-image img {
-    overflow: contain;
-    height: 2vw;
-    width: auto;
+@media only screen and (max-width: 425px) {
+    header {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-right: 0;
+    }
 }
+
+
+
 
 
 /* Homepage styles */
@@ -75,7 +79,7 @@ header span {
 
 #menu:hover {
     cursor: pointer;
-    color: rgb(255, 227, 227);
+    color: rgb(150, 150, 150);
     transition: 0.3s linear;
 }
 
