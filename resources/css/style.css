@@ -55,7 +55,7 @@ header span {
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    background-color: rgb(255, 199, 146)
+    background-color: rgb(255, 240, 227);
  
 }
 
@@ -131,6 +131,23 @@ header span {
     .menu-items {
         font-size: 2.5vw;
         
+    }
+
+    .hero h1 {
+        font-size: 16vw;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    #menu {
+        font-size: 5vw;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        text-align: center;
     }
 }
 
@@ -342,6 +359,14 @@ header span {
      #gallery .side-menu {
         font-size: 0.8rem;
      }
+}
+
+@media only screen and (max-width: 350px) {
+
+    #gallery .side-menu {
+        font-size: 0.6rem;
+    }
+
 }
 
 
