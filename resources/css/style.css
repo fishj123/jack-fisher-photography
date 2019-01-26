@@ -63,8 +63,18 @@ header span {
  
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .hero h1 {
     font-size: 7vw;
+    animation: 2.5s ease-in-out 0s 1 fadeIn;
     margin: 3vw;
     position: relative;
     bottom: 5vh;
@@ -74,7 +84,7 @@ header span {
     font-size: 1.5vw;
     position: relative;
     bottom: 5vh;
-    
+    animation: 2.5s ease-in-out 0s 1 fadeIn;
 }
 
 #menu:hover {
