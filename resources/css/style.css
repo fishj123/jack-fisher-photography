@@ -18,6 +18,19 @@ a {
     margin: auto;
 }
 
+
+.animation-element {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all 1.5s ease-in-out
+}
+
+.in-view {
+    opacity: 1;
+    top: 0px;
+}
+
 /* header styles */
 
 header {
